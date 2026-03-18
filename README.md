@@ -171,9 +171,8 @@ Payments: Razorpay (test mode)
 ---
 
 ## Author
-Ambica Pujari
-Jyothsna Pathapati
-Tejasri Thutta
-Supraja Maddukuri
-Divya Yarlagadda
-Corporate Readiness Skills Project
+Ambica Pujari ,
+Jyothsna Pathapati ,
+Tejasri Thutta ,
+Supraja Maddukuri ,
+Divya Yarlagadda 
