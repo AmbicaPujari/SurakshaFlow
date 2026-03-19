@@ -1,178 +1,189 @@
-# SurakshaFlow
-> When work stops, income flows.
+SurakshaFlow
+When Work Stops, Income Flows
 
----
+Live Demo:
+https://moonlit-kashata-fb3a3f.netlify.app/
 
-## Problem Statement
+--------------------------------------------------
 
-India’s gig economy workers (delivery partners) depend on daily earnings. External disruptions such as extreme weather, pollution, or sudden restrictions often prevent them from working, leading to significant income loss.
+PROBLEM
+Gig workers depend on daily income.
+Disruptions (rain, heat, pollution, restrictions) stop work instantly.
 
-Existing insurance solutions do not cover income loss caused by these uncontrollable external factors. Moreover, traditional systems are slow, claim-based, and not aligned with the weekly earning cycles of gig workers.
+→ Income drops to zero
+→ No protection exists
 
-There is a clear need for an intelligent, automated, and worker-centric solution that ensures income stability.
+Existing systems fail:
+- No income loss coverage
+- Slow claims
+- Not built for weekly earners
 
----
+--------------------------------------------------
 
-## Our Solution
+SOLUTION
+AI-powered parametric income protection system
 
-SurakshaFlow is an AI-powered parametric income protection platform designed specifically for gig workers.
+→ Detects disruptions automatically
+→ Triggers claims instantly
+→ Pays without user action
+→ Weekly subscription model
 
-It automatically detects external disruptions, triggers claims without user intervention, and provides instant payouts based on lost income — all through a simple weekly pricing model.
+We protect income, not events.
 
-We are not insuring events — we are protecting livelihoods.
+--------------------------------------------------
 
----
+TARGET USERS
+Delivery partners (Swiggy / Zomato)
 
-## Target Persona
+- Daily earners
+- Outdoor workers
+- High weather dependency
+- No financial safety net
 
-We focus on Food Delivery Partners (Swiggy/Zomato).
+--------------------------------------------------
 
-### Key Characteristics:
-- Daily/weekly income dependency  
-- Outdoor work exposure  
-- High sensitivity to weather and environmental conditions  
-- No existing income protection  
+FLOW
 
-### Scenario:
-A delivery partner plans to work 8 hours a day. Due to heavy rainfall, deliveries drop significantly, and the worker loses 30% of daily income. SurakshaFlow detects this disruption and compensates the loss instantly.
+1. Onboarding
+   - Location
+   - Weekly income
+   - Work pattern
 
----
+2. Risk Profiling (AI)
+   - Zone risk
+   - Weather exposure
+   - Income dependency
 
-## How It Works
+3. Plan Generation
+   - ₹20–₹50/week
+   - Income protection estimate
 
-1. **Onboarding**
-   - User registers and provides location and earnings data  
+4. Live Monitoring
+   - Rainfall
+   - Temperature
+   - AQI
+   - Restrictions
 
-2. **Risk Profiling**
-   - AI calculates a risk score based on historical and real-time data  
+5. Auto Claim Trigger
+   - Threshold crossed
+   - Activity verified
 
-3. **Weekly Policy Creation**
-   - Dynamic premium is generated based on risk level  
+6. Instant Payout
+   - No claim filing
+   - Immediate credit (simulated)
 
-4. **Disruption Monitoring**
-   - System continuously monitors parametric triggers (weather, AQI, etc.)  
+--------------------------------------------------
 
-5. **Automatic Claim Trigger**
-   - When disruption conditions are met, claim is triggered automatically  
+TRIGGERS
 
-6. **Instant Payout**
-   - Compensation is credited instantly via payment gateway  
+- Rainfall > 50mm
+- Temperature > 45°C
+- AQI > 300
+- Zone restrictions
 
----
+→ Directly linked to lost working hours
 
-## AI/ML Integration
+--------------------------------------------------
 
-- **Dynamic Premium Calculation**
-  - Adjusts weekly premium based on location and risk factors  
+PRICING
 
-- **Predictive Risk Modeling**
-  - Forecasts upcoming disruptions  
+Low Risk    → ₹20/week
+Medium Risk → ₹35/week
+High Risk   → ₹50/week
 
-- **Fraud Detection**
-  - Detects anomalies in claims using:
-    - Location validation  
-    - Activity patterns  
-    - Duplicate claim detection  
+--------------------------------------------------
 
----
+AI FEATURES
 
-## Parametric Triggers
+- Risk scoring
+- Disruption prediction
+- Dynamic pricing
+- Fraud detection
 
-Claims are triggered automatically based on predefined conditions:
+--------------------------------------------------
 
-- Rainfall above threshold (e.g., >50 mm)  
-- Temperature above 45°C  
-- AQI above 300  
-- Zone-based restrictions or closures  
+FRAUD PREVENTION
 
-These triggers directly correlate with loss of working hours and income.
+Problem:
+- GPS spoofing
+- Fake activity
+- Coordinated claims
 
----
+Solution:
+Multi-Signal Trust Model
 
-## Weekly Pricing Model
+Signals used:
+- Work history
+- Pre-activity
+- Movement pattern
+- Device fingerprint
+- Order behavior
+- Weather validation
 
-The platform follows a weekly micro-pricing model aligned with gig workers’ earning cycles.
+Fraud detection:
+- Pattern clustering
+- Same device usage
+- Unrealistic movement
 
-| Risk Level | Weekly Premium |
-|-----------|---------------|
-| Low       | ₹20           |
-| Medium    | ₹35           |
-| High      | ₹50           |
+Decision:
 
-Premiums are dynamically adjusted using AI based on real-time risk conditions.
+Genuine   → Auto approve
+Unclear   → Soft check
+Fraud     → Investigate
 
----
+--------------------------------------------------
 
-## Fraud Detection
+DASHBOARD
 
-SurakshaFlow includes intelligent fraud detection mechanisms:
+Worker:
+- Coverage
+- Income protection
+- Alerts
 
-- GPS-based location verification  
-- Weather validation using APIs  
-- Activity tracking  
-- Duplicate claim prevention  
-- Anomaly detection using AI models  
+Admin:
+- Fraud alerts
+- Heatmaps
+- Analytics
 
----
+--------------------------------------------------
 
-## Integrations
+UNIQUE POINTS
 
-- Weather APIs (OpenWeather / mock data)  
-- AQI APIs (mock)  
-- Payment Gateway (Razorpay test mode)  
-- Simulated platform APIs (Swiggy/Zomato)  
+- Income protection (not insurance)
+- Zero-effort claims
+- Weekly pricing
+- Hyperlocal detection
+- Fraud-resistant system
+- AI-driven decisions
 
----
+--------------------------------------------------
 
-## Dashboard
+TECH STACK
 
-### For Workers:
-- Weekly coverage status  
-- Earnings protected  
-- Active claims  
+Frontend  → HTML / React / Flutter
+Backend   → Node.js / Flask
+AI/ML     → Python
+Database  → Firebase / MongoDB
+APIs      → Weather + AQI
+Payments  → Razorpay (simulated)
 
-### For Admin:
-- Claim analytics  
-- Risk heatmaps  
-- Fraud alerts  
-- Predictive insights  
+--------------------------------------------------
 
----
+FUTURE
 
-## What’s New in SurakshaFlow
+- Real platform integration
+- Better ML models
+- Multi-sector expansion
+- Personalized plans
 
-- Shift from insurance to income continuity  
-- Zero-touch automated claims  
-- AI-driven dynamic pricing  
-- Hyper-local disruption detection  
-- Gig-specific fraud detection  
-- Weekly micro-pricing model  
+--------------------------------------------------
 
----
+TEAM
 
-## Tech Stack
+Ambica Pujari
+Jyothsna Pathapati
+Tejasri Thutta
+Supraja Maddukuri
+Divya Yarlagadda
 
-Frontend: React / Flutter  
-Backend: Node.js / Python (Flask)  
-AI/ML: Python (scikit-learn)  
-Database: Firebase / MongoDB  
-APIs: Weather + AQI (mock/real)  
-Payments: Razorpay (test mode)  
-
----
-
-## Future Scope
-
-- Integration with real gig platforms  
-- Advanced ML models for prediction  
-- Expansion to other gig sectors  
-- Personalized insurance plans  
-
----
-
-## Author
-Ambica Pujari ,
-Jyothsna Pathapati ,
-Tejasri Thutta ,
-Supraja Maddukuri ,
-Divya Yarlagadda 
+--------------------------------------------------
